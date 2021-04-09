@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli|Nixie+One" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <title>Ruthie Carroll | Welcome</title>
+</head>
+
+<body id="home">
+  <header class="header-show">
+      <h1><a href="index.html">RUTHIE <br class="break">CARROLL</a></h1>
+  </header>
+  <div class="menu">
+      <i class="fas fa-bars menubtn"></i>
+      <nav class="nav-show">
+          <ul>
+              <li class="nav-item"><a class="scroll" href="index.html#home">home</a></li>
+              <li class="nav-item"><a href="writer.html">writing</a></li>
+              <li class="nav-item"><a href="musician.html">music</a></li>
+              <li class="nav-item"><a href="developer.html">web</a></li>
+              <li class="nav-item"><a class="scroll" href="index.html#about">about</a></li>
+              <li class="nav-item"><a class="scroll" href="index.html#ask">ask</a></li>
+              <footer>Site Design <br>and images <br>&copy; 2018 <br> Ruthie Carroll</footer>
+          </ul>
+      </nav>
+  </div>
+  <div class="panel" id="intro">
+    <div class="links">
+      <a href="writer.html"><h3>writer</h3></a>
+      <a href="musician.html"><h3>musician</h3></a>
+      <a href="developer.html"><h3>web designer</h3></a>
+    </div>
+    <div class="clear"></div>
+    <div id="slider">
+      <img src="images/writing.jpg" id="writing" class="sliding">
+      <img src="images/fiddling.jpg" id="music" class="sliding">
+      <img src="images/laptop.jpg" id="web" class="sliding">
+    </div>
+  </div>
+  <div id="about" class="panel">
+    <h2>ABOUT ME</h2>
+    <div class="text">
+      <p>Thanks for checking out my website! </p>
+      <p>I’m a student at <a href="https://www.wwu.edu/">Western Washington University</a> in Bellingham, pursuing a degree in Creative Writing with a minor in Linguistics, and a certificate in Web Content Development. This website, as well as my degree, emphasizes the multidisciplinary diversity that I value in life. </p>
+      <p>There is so much in the world that needs attention, and I can only do so much on my own. I see myself first and foremost as an engaged citizen, an empathetic human being, who can listen to the people struggling most, and listen to the people working hardest, and support them as best I can. This could mean working and writing directly for a human rights organization, or it could mean creating art that reflects and amplifies the voices of those fighting at the front lines of social and environmental justice. At this early stage in my life, I don’t pretend to know exactly what my future holds. Whatever I do, however, I know I will be proud of it. </p>
+    </div>
+  </div>
+  <div id="ask" class="panel">
+    <h2>ASK ME ANYTHING</h2>
+    <div class="text">
+      <p>Leave your comment, question, or inquiry below and I will respond as soon as I can! </p>
+      <form method="POST" action="confirm.html" onsubmit="return validate();">
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="category">Category: </label>
+          <select multiple class="form-control" id="category" name="category">
+            <option>Writing</option>
+            <option>Music</option>
+            <option>Web Design</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="message" name="message" rows="2" placeholder="Type your message here ..."></textarea>
+        </div>
+        <div class="submit">
+          <button name="submit" class="btn btn-info">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jquery.scrollify.js"></script>
+  <script src="js/jquery.cycle.all.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

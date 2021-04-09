@@ -1,0 +1,351 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family:'Muli',Tahoma,sans-serif;
+    background-color: #000;
+}
+header {
+    background-color:#FFF;
+    opacity:.8;
+    position:fixed;
+    top:0;
+    z-index: 100;
+    width:100%;
+    height:60px;
+    transition:0.5s ease-in-out;
+}
+.header-hide {
+    top: -60px;
+}
+h1 {
+    padding-left:15px;
+    margin:0;
+    color:#000;
+    font-size: 50px;
+    font-family: 'Nixie One', Tahoma, sans-serif;
+}
+.break {
+    display:none;
+}
+.menu .fa-bars {
+    z-index: 102;
+    color:#00cdcd;
+    position: fixed;
+    top:20px;
+    right:20px;
+    font-size: 20px;
+}
+.menu .fa-bars:hover {
+    cursor: pointer;
+}
+nav {
+    background-color:#FFF;
+    opacity:.8;
+    position:fixed;
+    /* padding-top:60px; */
+    right:-115px;
+    z-index: 101;
+    padding-right:20px;
+    padding-top:10px;
+    width:115px; 
+    height: 100%;
+    transition: ease-in 0.4s;
+    transform: translateX(-115px);
+}
+.nav-show {
+    transition: ease-in 0.3s;
+    transform: translateX(0);
+}
+nav ul {
+    padding-top: 60px;
+    position: relative;
+}
+nav ul li {
+    padding-top:20px;
+    padding-right:10px;
+    padding-left:0px;
+    margin:0;
+    color:#000;
+    list-style-type: none;
+}
+footer {
+    position: absolute;
+    top:85vh;
+    right:-35px;
+    font-size: 13px;
+    width:115px;
+    padding: 0;
+    margin: 0;
+}
+a:link, a:visited, a:hover, a:active {
+    color:#000;
+    text-decoration: none;
+}
+.text a:link, .text a:visited {
+    text-decoration: underline;
+}
+.text a:hover, .text a:active {
+    color:teal;
+}
+nav a:hover, nav a:active {
+    font-weight:bold;
+    color:teal;
+}
+header a:hover, header a:active {
+    font-weight: normal;
+}
+.panel {
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed; /* parallax effect */
+}
+h2 {
+    padding: 0;
+    color:#00cdcd;
+    font-size: 60px;
+    text-align:center;
+}
+#intro {
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.links {
+    width:100%;
+    position: absolute;
+    bottom:50vh;
+    z-index: 99;
+    padding-right:auto;
+    padding-left:30%;
+}
+h3 {
+    color:#00e6e6;
+    font-size:30px;
+    padding:10px;
+    margin-right:15px;
+    margin-left:15px;
+    border:2px solid #00e6e6;
+    float:left;
+    font-weight: bold;
+}
+h3:hover {
+    color: #00cdcd;
+    border-color: teal;
+}
+.text {
+    background-color:#FFF;
+    width:55%;
+    padding:15px 20px;
+    margin: 20px auto;
+    opacity:.8;
+    overflow: scroll;
+    max-height: 80vh;
+}
+.clear {
+    clear:both;
+}
+
+/*---------------- HOME PAGE ----------------*/
+#about {
+    background-image: url(../images/back.jpg);
+}
+#ask {
+    background-image: url(../images/beach.jpg);
+}
+#about h2, #ask h2, #confirm h2 {
+    color:teal;
+}
+/* ---------------- IMAGE SLIDER ----------------- */
+#slider {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+.sliding {
+    height:auto;
+    width:100%;
+}
+
+/*---------------- WRITER PAGE ---------------*/
+#writerintro {
+    background-image: url(../images/writing.jpg);
+}
+#writerintro h2 {
+    padding-top:80px;
+    padding-right:400px;
+    text-align: right;
+}
+#writerintro .text {
+    margin-right:90px;
+    width:50%;
+}
+#writersamples {
+    background-image: url(../images/books.jpg);
+    background-position: top;
+}
+dt {
+    font-style: italic;
+    font-weight:inherit;
+}
+#writernews {
+    background-image: url(../images/lines.jpg);
+    background-position: top;
+}
+#writerresume {
+    background-image: url(../images/pen.jpg);
+    background-position:top;
+}
+/* --------- Light Box ----------- */
+#curtain{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 997;
+}
+#light{
+    width:80%;
+    height:95%;
+    top: 10px;
+    right:10%;
+    position: fixed;
+    margin: auto;
+    z-index: 998;
+}
+#close{
+    font-size:20px;
+    top:20px;
+    left:20px;
+    position: fixed;
+    z-index: 999;
+    color:#FFF;
+    cursor: pointer;
+}
+.view-web-resume:hover, .view-writing-resume:hover, .responsive-resume:hover, .view-writing-portfolio:hover {
+    cursor:pointer;
+    font-weight:bold;
+}
+.responsive-resume {
+    display:none;
+}
+
+/*------------- MUSIC PAGE --------------*/
+#musicintro {
+    background-image: url(../images/fiddling.jpg);
+    background-position: left;
+}
+#musicintro h2 {
+    padding-top:80px;
+    padding-right:150px;
+    text-align: right;
+}
+#musicintro .text {
+    margin-right:90px;
+    width:40%;
+}
+#musicsamples {
+    background-image: url(../images/fiddleshadow.jpg);
+}
+#musicevents {
+    background-image: url(../images/folklife.jpg);
+}
+
+/*-------------- WEB PAGE --------------*/
+#webintro {
+    background-image: url(../images/laptop.jpg);
+    background-position:top;
+}
+#webintro h2 {
+    padding-top:80px;
+    padding-right:100px;
+    text-align: right;
+}
+#webintro .text {
+    margin-right:90px;
+    width:40%;
+}
+#websamples {
+    background-image: url(../images/coded.jpg);
+}
+#webresume {
+    background-image: url(../images/keyboard.jpg);
+}
+/* CONFIRM PAGE */
+#confirm {
+    background-image: url(../images/beach.jpg);
+}
+#confirm h2 {
+    padding-top:80px;
+}
+
+/*---------- MEDIA QUERIES ------------*/
+@media(max-width:1050px) {
+    .links {
+        padding-left:20%;
+    }
+}
+@media(max-width:850px) {
+    .sliding {
+        height:100%;
+        width:auto;
+    }
+    .links {
+        padding:10px;
+        bottom:30vh;
+    }
+    h3 {
+        float:none;
+        width:auto;
+        text-align:center;
+    }
+    h2, #writerintro h2, #musicintro h2, #webintro h2 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .text, #writerintro .text, #musicintro .text, #webintro .text {
+        background-color:#FFF;
+        width:90%;
+        padding:10px;
+        margin: 10px auto;
+        opacity:.8;
+    }
+    #about {
+        background-position: left;
+    }
+    #musicintro {
+        background-position-x: 50%;
+    }
+    #musicevents {
+        background-position-x: 40%;
+    }
+    #musicsamples {
+        background-position-x: 20%;
+    }
+    #websamples {
+        background-position:left;
+    }
+    .view-web-resume, .view-writing-resume, .view-writing-portfolio {
+        display:none;
+    }
+    .responsive-resume {
+        display: initial;
+    }
+}
+@media(max-width:500px) {
+    header {
+        height:120px;
+    }
+    .break {
+        display: initial;
+    }
+    nav ul {
+        padding-top: 100px;
+    }
+    #writerintro h2, #musicintro h2, #webintro h2, #confirm h2 {
+        padding-top:120px;
+    }
+}
