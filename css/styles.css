@@ -149,10 +149,10 @@ h3:hover {
 
 /*---------------- HOME PAGE ----------------*/
 #about {
-    background-image: url(../images/back.jpg);
+    background-image: url(../back.jpg);
 }
 #ask {
-    background-image: url(../images/beach.jpg);
+    background-image: url(../beach.jpg);
 }
 #about h2, #ask h2, #confirm h2 {
     color:teal;
@@ -170,7 +170,7 @@ h3:hover {
 
 /*---------------- WRITER PAGE ---------------*/
 #writerintro {
-    background-image: url(../images/writing.jpg);
+    background-image: url(../writing.jpg);
 }
 #writerintro h2 {
     padding-top:80px;
@@ -182,7 +182,7 @@ h3:hover {
     width:50%;
 }
 #writersamples {
-    background-image: url(../images/books.jpg);
+    background-image: url(../books.jpg);
     background-position: top;
 }
 dt {
@@ -190,11 +190,11 @@ dt {
     font-weight:inherit;
 }
 #writernews {
-    background-image: url(../images/lines.jpg);
+    background-image: url(../lines.jpg);
     background-position: top;
 }
 #writerresume {
-    background-image: url(../images/pen.jpg);
+    background-image: url(../pen.jpg);
     background-position:top;
 }
 /* --------- Light Box ----------- */
@@ -235,7 +235,7 @@ dt {
 
 /*------------- MUSIC PAGE --------------*/
 #musicintro {
-    background-image: url(../images/fiddling.jpg);
+    background-image: url(../fiddling.jpg);
     background-position: left;
 }
 #musicintro h2 {
@@ -248,15 +248,15 @@ dt {
     width:40%;
 }
 #musicsamples {
-    background-image: url(../images/fiddleshadow.jpg);
+    background-image: url(../fiddleshadow.jpg);
 }
 #musicevents {
-    background-image: url(../images/folklife.jpg);
+    background-image: url(../folklife.jpg);
 }
 
 /*-------------- WEB PAGE --------------*/
 #webintro {
-    background-image: url(../images/laptop.jpg);
+    background-image: url(../laptop.jpg);
     background-position:top;
 }
 #webintro h2 {
@@ -269,14 +269,14 @@ dt {
     width:40%;
 }
 #websamples {
-    background-image: url(../images/coded.jpg);
+    background-image: url(../coded.jpg);
 }
 #webresume {
-    background-image: url(../images/keyboard.jpg);
+    background-image: url(../keyboard.jpg);
 }
 /* CONFIRM PAGE */
 #confirm {
-    background-image: url(../images/beach.jpg);
+    background-image: url(../beach.jpg);
 }
 #confirm h2 {
     padding-top:80px;
